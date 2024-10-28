@@ -1,0 +1,1035 @@
+\documentclass{report}
+\usepackage{appendix}
+\usepackage{amsmath}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage[parfill]{parskip} % Impostazione di parindent=0pt
+\usepackage{lipsum} % Pacchetto per generare testo fittizio
+\usepackage{wrapfig} % Pacchetto per posizionare figure affiancate al testo
+\usepackage{floatrow} % Pacchetto per la gestione avanzata delle figure
+\usepackage{amsmath} % Pacchetto per formule matematiche avanzate
+\usepackage{booktabs}
+\usepackage{amssymb} % Per \square
+\usepackage{array} % Per migliorare la gestione delle colonne in tabular
+\usepackage{hyperref}
+%\usepackage{float}
+\usepackage{wrapfig}
+
+
+
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    \Large \textbf{Elaborato finale \\ L'equilibrio chimico e le reazioni Acido Base} \\
+    \vspace{1.0cm}
+    \Large Laboratorio di didattica della Chimica \\ Modulo 1 \\
+    \vspace{2cm}
+    \large \textbf{Autore} \\
+    Jonathan Bussoleni \\
+    \vspace{2 cm}
+    \large \textbf{Professor} \\
+    Sergio Zappoli \\
+    \vspace{3.5cm}
+    
+    \Large Didattica e comunicazione delle Scienze Naturali \\ DiCoSN \\
+    \vspace{0.5cm}
+    \large Anno Accademico \\
+    \textit{2023-2024} \\
+    
+\end{titlepage}
+%##############################################################
+\begin{document}
+
+
+
+\tableofcontents
+
+\chapter{Paradigma metodologico}
+Il presente elaborato è stato scritto attraverso il software OverLeaf - Latex free, utilizzando contenuti prodotti da me e fonti consultate o citate.
+
+Di seguito verranno illustrate le metodologie didattiche ipotizzate per questa unità didattica. Verrà trattato inizialmente il \textit{contesto scolastico} rintracciabile nella scelta degli obiettivi generali e didattici, nella selezione dei contenuti dell'insegnamento e nella letteratura di riferimento. \\
+Successivamente verranno proposti gli obiettivi dell'agenda 2030 coerenti con il tema.
+Infine si analizzerà la metodologia scelta per le lezioni, i tempi e gli spazi, le risorse.
+
+
+\section{Contesto scolastico}
+Questo esempio di unità didattica è destinato ad una classe dei primi anni del Liceo Scientifico, pur comunque restando disponibili a modificare la proposta coerentemente con il livello della classe, come esplicitato dalle linee guida ministeriali: \textit{I contenuti di chimica comprendono l’osservazione e descrizione di fenomeni e di reazioni
+semplici (il loro riconoscimento e la loro rappresentazione) con riferimento anche a esempi
+tratti dalla vita quotidiana; gli stati di aggregazione della materia e le relative trasformazioni;
+la classificazione della materia (miscugli omogenei ed eterogenei, sostanze semplici e
+composte) e le relative definizioni operative; le leggi fondamentali e il modello atomico di
+Dalton; la formula chimica e il suo significato; la classificazione degli elementi secondo
+Mendeleev.
+(...)i contenuti indicati saranno sviluppati dai docenti
+secondo le modalità e con l’ordine ritenuti più idonei alla classe, al contesto anche territoriale,
+alla fisionomia della scuola e alle scelte metodologiche da essi operate."} \footnote{\url{https://www.istruzione.it/alternanza/allegati/NORMATIVA-20ASL/INDICAZIONI-20NAZIONALI-20PER-20I-20LICEI.pdf}}
+
+Per questo curriculum sono previste 5 ore settimanali di scienze.
+
+\noindent Inoltre, consultando le ultime linee guida specifiche per i licei(2010), emerge proprio la dimensione di ricerca di esperienze significative e connesse con la realtà su cui vorrei porre l'attenzione. Negli anni le scuole di ogni ordine e grado stanno cercando di promuovere programmi innovativi sia sul piano pedagogico che didattico, visto l'aumento dell'abbandono scolastico degli ultimi vent'anni vissuto soprattutto dalle scuole secondarie di secondo grado, fenomeno ritenuto alla base della precarietà sociale crescente sul piano nazionale.
+
+\vspace{0.5cm}
+\noindent Questa nuova sensibilità è causata, secondo le fonti\footnote{MUSELLA, Marco; VERDE, Melania; LIOTTI, Giorgio. Dispersione e abbandono scolastico. Due indicazioni per migliorare l’analisi del fenomeno e le strategie di intervento. 2023.}, da due fattori in aumento:
+
+
+\begin{itemize}
+
+\item un’utenza sempre più variegata ed esigente che esprime una domanda di senso e di esperienze significative in cui riconoscere le proprie potenzialità e valorizzare i propri talenti;
+
+\item un mutamento profondo del sistema economico e professionale nazionale trainato dalla competizione globalizzata e dall’evoluzione cognitiva crescente del lavoro, conseguente alla trasformazione digitale (rivoluzione industriale 4.0) che richiede competenze sempre più elevate anche nelle figure intermedie inserite nelle strutture organizzative.
+
+\end{itemize}
+
+
+\vspace{0.5cm}
+\noindent Emerge quindi la necessità di portare le studentesse e gli studenti a connettersi in modalità innovative con i problemi e le sfide che la realtà propone, uscendo da quel paradigma teorico - classico  che ad oggi appare poco aderente alla \textit{complessità} della scuola, oltre che a quella nazionale e globale.
+
+\noindent Ciò comporta l’ampliamento 
+delle metodologie didattiche da utilizzare, in modo da favorire l’espressione di tutte le tipologie di intelligenza degli studenti, e non solo di quella logico-deduttiva.
+
+Tale ampliamento prevede in 
+particolare di includere nella didattica ordinaria delle attività in grado di suscitare l’intelligenza pratica, sociale, emotivo-relazionale, intuitiva, riflessiva ed argomentativa, ricorrendo ad esempio a tecniche quali\textit{ il lavoro di gruppo, l’educazione tra pari, il problem solving, il laboratorio su 
+compiti reali, il project work, gli eventi pubblici, i concorsi e i dibattiti.}\\
+
+
+Infine è necessario assumere una prospettiva pienamente co-educativa da parte del team dei docenti, in quanto adulti significativi in grado di determinare il futuro professionale e culturale degli studenti con cui collaborano nell'azione didattica.
+
+\subsection{Obiettivi di apprendimento - cosa voglio insegnare?}
+La scelta degli obiettivi di apprendimento deve rispondere il più possibile precisamente alla domanda \textit{cosa voglio insegnare?}
+e nell'ambito di questo argomento ho selezionato quattro punti fondamentali:
+\begin{itemize}
+    \item Fondamenti dell'equilibrio chimico: concetti di costante di equilibrio, principio di Le Chatelier e le sue applicazioni pratiche.
+    \item Reazioni acido-base: definizioni di acidi e basi secondo i modelli di Arrhenius, Brønsted-Lowry e Lewis; calcolo del pH, pOH e delle concentrazioni ioniche.
+    \item Collaborazione tra gli studenti e le studentesse attraverso lavori di gruppo e cooperative learning per risolvere problemi complessi e realizzare esperimenti.
+    \item Utilizzo del laboratorio come aula 2.0: applicazione pratica dei concetti teorici attraverso esperienze dirette e significative con titolazioni acido-base, utilizzo di indicatori e pH-metri.
+\end{itemize}
+
+
+\subsection{Prerequisiti}
+\begin{itemize}
+
+\item \textbf{Basi di chimica generale:} conoscenza degli atomi, molecole, legami chimici, e tavola periodica.
+\item \textbf{Concetti fondamentali di matematica:} capacità di svolgere operazioni algebriche, uso dei logaritmi e comprensione delle equazioni.
+\item \textbf{Cifre significative:} comprensione e utilizzo corretto delle cifre significative nelle misurazioni e nei calcoli.
+\item \textbf{Stechiometria:} capacità di bilanciare le reazioni chimiche, calcolare le quantità di reagenti e prodotti.
+\item \textbf{Competenza nell'uso degli strumenti di laboratorio:} familiarità con l'uso di vetreria di laboratorio.
+\item \textbf{Informatica di base:} capacità di utilizzare software come Excel per l'analisi dei dati sperimentali.
+\end{itemize}
+
+
+\subsection{Obiettivi didattici - come lo voglio insegnare?}
+
+Nel progettare il metodo di insegnamento per i concetti di equilibrio chimico e reazioni acido-base è essenziale adottare approcci che favoriscano un apprendimento significativo e coinvolgente. I seguenti obiettivi sono stati selezionati per garantire una comprensione approfondita e pratica dei principi fondamentali dell'argomento.
+
+\begin{itemize}
+    \item \textbf{Fondamenti dell'equilibrio chimico}: Presentare alla classe i concetti di costante di equilibrio, principio di Le Chatelier e le sue applicazioni pratiche attraverso esempi concreti e applicazioni pratiche. Utilizzare lezioni esperienziali supportate da slide interattive per illustrare concetti complessi come la dinamica dell'equilibrio chimico. Introdurre casi studio e situazioni problema che mostrino l'importanza dell'equilibrio chimico in vari contesti, enfatizzando l'accuratezza e la ripetibilità dei risultati.
+
+    \item \textbf{Reazioni acido-base}: Presentare alla classe le definizioni di acidi e basi secondo i modelli di Arrhenius, Brønsted-Lowry e Lewis; il calcolo del pH, pOH e delle concentrazioni ioniche. Organizzare interventi didattici e sintetici ma sempre reali sul calcolo e la misurazione del pH, evidenziando l'applicazione pratica di questi strumenti nel valutare la natura acida o basica di una soluzione (come nel caso dell'acidificazione degli oceani). Utilizzare esercitazioni pratiche con titolazioni acido-base e l'uso di pH-metri, dove la classe applica direttamente i concetti appresi per analizzare soluzioni reali.
+
+    \item \textbf{Utilizzo del laboratorio come aula 2.0}: Trasformare il laboratorio in un ambiente di apprendimento avanzato, dove gli studenti e le studentesse non solo assistono ma partecipano attivamente alle esperienze pratiche. Fornire istruzioni dettagliate su come eseguire correttamente le titolazioni acido-base e l'uso del pH-metro. Utilizzare la lavagna interattiva per guidare la classe attraverso le fasi della procedura, incoraggiando la discussione e la risoluzione collaborativa di problemi.
+\end{itemize}
+
+
+
+\subsection{Obiettivi dell'agenda 2030 - essere cittadini}
+Questa unità didattica risponde agli obiettivi\footnote{https://www.agenziacoesione.gov.it/wp-content/uploads/2020/04/agenda-2030-card-17-goals.pdf}:\\
+
+4. ISTRUZIONE DI QUALIT\uppercase{à}\\ 
+\textit{4.a Costruire e adeguare le strutture scolastiche in modo che siano adatte
+alle esigenze dei ragazzi e ragazze, alla disabilità e alle differenze di genere e
+fornire ambienti di apprendimento sicuri, non violenti, inclusivi ed efficaci
+per tutti};
+
+\textit{4.7 Entro il 2030, assicurarsi che tutti gli studenti acquisiscano le conoscenze e le
+competenze necessarie per promuovere lo sviluppo sostenibile attraverso, tra l’altro,
+l'educazione per lo sviluppo sostenibile e stili di vita sostenibili, i diritti umani,
+l'uguaglianza di genere, la promozione di una cultura di pace e di non violenza, la
+cittadinanza globale e la valorizzazione della diversità culturale e del contributo della
+cultura allo sviluppo sostenibile\\}
+
+9. IMPRESE INNOVAZIONE E INFRASTRUTTURE al punto 
+\textit{9.5 "Potenziare la ricerca scientifica, promuovere le capacità tecnologiche dei
+settori industriali in tutti i paesi, in particolare nei paesi in via di sviluppo, anche incoraggiando, entro il 2030, l'innovazione e aumentando in modo sostanziale il numero dei lavoratori dei settori ricerca e sviluppo ogni milione di persone e la spesa pubblica e privata per ricerca e sviluppo."};\\
+
+11. CITTÀ E COMUNITÀ SOSTENIBILI\\
+\textit{11.4 Rafforzare gli impegni per proteggere e salvaguardare il patrimonio
+culturale e naturale del mondo.}
+
+13. LOTTA CONTRO IL CAMBIAMENTO CLIMATICO\\
+\textit{13.3 Migliorare l'istruzione, la sensibilizzazione e la capacità umana e
+istituzionale riguardo ai cambiamenti climatici in materia di mitigazione,
+adattamento, riduzione dell’impatto e di allerta precoce.}
+
+14. VITA SOTT'ACQUA\\
+\textit{14.3 Ridurre al minimo e affrontare gli effetti dell'acidificazione degli oceani anche
+attraverso una maggiore cooperazione scientifica a tutti i livelli.}
+
+
+
+\section{Orari, spazi e risorse}
+\subsection{Orari}
+Il quadro orario previsto prevede 5 ore settimanali di insegnamento di Scienze.
+
+\noindent Le lezioni vengono divise in una parte teorica, in una laboratoriale a sostegno della didattica includendo attività di gruppo e di valutazione.
+
+\noindent Nel dettaglio, lo schema che seguiranno le lezioni sarà il seguente:
+\begin{itemize}
+    \item brainstorming iniziale e sondaggio conoscenze iniziali e pregresse.
+    \item lezioni teoriche e partecipate.
+    \item laboratorio
+    \item prova orale con presentazione di un progetto a gruppi e valutazione
+\end{itemize}
+
+\subsection{Spazi e risorse}
+\uppercase{è} necessaria un'aula provvista di LIM e computer; un laboratorio in cui poter applicare i concetti affrontati.
+
+\newpage
+\section{Introduzione all'equilibrio chimico}
+
+
+Il concetto di equilibrio chimico si riferisce ad una situazione in cui durante una trasformazione chimica, le velocità della reazione diretta e inversa sono uguali.\\ 
+
+Questo significa che la reazione continua a verificarsi in entrambe le direzioni, ma senza un cambiamento netto nella concentrazione dei reagenti e dei prodotti nel tempo. Tale stato è caratterizzato da un cambiamento reversibile, dove le sostanze sul lato sinistro dell'equazione chimica (i reagenti) si trasformano nelle sostanze sul lato destro (i prodotti) e viceversa.
+
+I sistemi in equilibrio sono chiusi, condizione in cui nessuna sostanza può entrare o uscire dal sistema stesso. 
+Questo stato dinamico è contraddistinto da continui cambiamenti reversibili nel piano microscopico, nonostante non sia evidente alcun cambiamento sul piano macroscopico nelle concentrazioni delle sostanze coinvolte. 
+
+In equilibrio, le velocità delle reazioni diretta e inversa sono uguali, ma ciò non implica necessariamente che le quantità dei reagenti e dei prodotti siano uguali. Le concentrazioni di queste sostanze rimangono costanti nel tempo, anche se possono essere presenti in proporzioni diverse.
+
+Un esempio pratico di equilibrio chimico facilmente rappresentabile didatticamente è la dissoluzione del cloruro di sodio (NaCl) in acqua.
+La dinamica della reazione è composta simultaneamente da due situazioni:
+
+Nella reazione diretta il cloruro di sodio solido si dissolve nell'acqua, dissociandosi in ioni sodio (Na$^{+}$) e cloruro (Cl$^{-}$).
+
+\begin{equation}
+\ce{NaCl \textit{(s)} <=> Na+ (\textit{aq}) + Cl- (\textit{aq}) }
+\end{equation}
+
+Reazione inversa: Gli ioni sodio e cloruro in soluzione possono ricombinarsi per formare molecole di cloruro di sodio. 
+
+\begin{equation}
+\ce{Na+ (\textit{aq}) + Cl- (\textit{aq}) <=> NaCl \textit{(s)} }
+\end{equation}
+
+
+Lo stato di equilibrio si raggiunge quando le velocità della dissoluzione e della cristallizzazione sono uguali. Le concentrazioni o il numero degli ioni sodio e cloruro in soluzione rimangono costanti nel tempo, anche se il processo di dissoluzione e cristallizzazione continua a verificarsi continuamente a livello molecolare (o ultramicroscopico).\\
+
+Una volta chiarito il concetto di equilibrio chimico possiamo passare alla sua mediazione didattica.
+
+\chapter{Paradigmi teorici di riferimento}
+Per inquadrare un fenomeno dal punto di vista epistemologico dobbiamo rifarci a dei paradigmi che ne chiariscano la sua natura e il suo funzionamento: questo può essere rintracciato nelle leggi matematiche e nelle descrizioni degli scienziati che lo hanno scoperto e approfondito.
+
+\section{Costante di Equilibrio}
+
+La costante di equilibrio, spesso indicata con \textit{Kc}, è un valore che quantifica l'equilibrio di una reazione chimica reversibile. 
+In un sistema chimico, quando una reazione raggiunge l'equilibrio, le concentrazioni dei reagenti e dei prodotti rimangono costanti nel tempo, nonostante le reazioni dirette e inverse continuino a verificarsi.
+Possiamo rappresentare la reazione in questo modo:
+
+\begin{equation}
+\ce{aA + bB <=> cC + dD}
+\end{equation}
+
+
+la costante di equilibrio K è definita dall'espressione:
+
+\begin{equation}
+K = \frac{[\ce{C}]^c[\ce{D}]^d}{[\ce{A}]^a[\ce{B}]^b}
+\end{equation}
+
+
+dove:
+\begin{itemize}
+    \item A, B, C e D  sono le concentrazioni molari (mol/L) dei reagenti e dei prodotti all'equilibrio
+    \item a, b, c e d sono i coefficienti stechiometrici dei reagenti e dei prodotti nella reazione bilanciata.
+\end{itemize}
+
+La costante di equilibrio è specifica per una data reazione e dipende dalla temperatura. 
+Se la reazione è esotermica o endotermica, i cambiamenti di temperatura possono alterarne il valore.
+
+Si può comprendere l'equilibrio attraverso i suoi valori:
+\begin{itemize}
+    \item Un valore di K molto grande $K {>>} 1$ indica che, all'equilibrio, i prodotti sono molto favoriti rispetto ai reagenti.
+    \item Un valore di K molto piccolo $1 {<<} K$ indica che, all'equilibrio, i reagenti sono molto favoriti rispetto ai prodotti.
+    \item Un valore di K vicino a 1 indica che né i reagenti né i prodotti sono particolarmente favoriti, e le loro concentrazioni sono comparabili all'equilibrio.
+\end{itemize}
+
+
+\subsection{Esempio: acidificazione dell'acqua}
+
+La reazione bilanciata riporta la prima di tre fasi del processo di acidificazione dell'acqua a causa della presenza di ioni carbonato e ioni idrogeno. In questo esempio, per semplificazione , si descrive la prima, approfondendo le altre due più avanti.
+
+\begin{equation}
+\ce{CO2 (\textit{aq}) + H2O (\textit{aq}) <=> H2CO3 (\textit{aq}) }
+\end{equation}
+
+La costante di equilibrio \( K_c \) per questa reazione è data da:
+
+\begin{equation}
+K_c = \frac{[\ce{H2CO3}]}{[\ce{CO2}] [\ce{H2O}]}
+\end{equation}
+
+Poiché la concentrazione dell'acqua \([\ce{H2O}]\) è praticamente costante, possiamo considerarla come unitaria, ottenendo:
+
+\begin{equation}
+K_c = \frac{[\ce{H2CO3}]}{[\ce{CO2}]}
+\end{equation}
+
+Supponiamo di avere le seguenti concentrazioni a equilibrio:
+\begin{align*}
+[\ce{CO2}] &= 0.03 \, \text{M} \\
+[\ce{H2CO3}] &= 0.002 \, \text{M}
+\end{align*}
+
+Calcoliamo \( K_c \):
+
+\begin{equation}
+K_c = \frac{0.002 \, \text{M}}{0.03 \, \text{M}} = \frac{2 \times 10^{-3}}{3 \times 10^{-2}} = \frac{2}{30} = 0.0667
+\end{equation}
+
+Quindi, la costante di equilibrio \( K_c \) per questa reazione è 0.0667.
+
+
+\subsection{Interpretazione del valore}
+
+Il valore della costante di equilibrio \( K_c = 0.0667 \) significa che, all'equilibrio, la concentrazione dell'acido carbonico \(\ce{H2CO3}\) è molto più bassa rispetto alla concentrazione dell'anidride carbonica \(\ce{CO2}\) disciolta nell'acqua.
+
+Un \( K_c \) inferiore a 1 indica che all'equilibrio la reazione tende a favorire i reagenti rispetto ai prodotti; quindi la concentrazione di \(\ce{CO2}\) e \(\ce{H2O}\) è maggiore rispetto a quella di \(\ce{H2CO3}\).
+
+\section*{Implicazioni}
+
+\begin{itemize}
+  \item \textbf{Predominanza dei Reagenti}: Poiché \( K_c \) è inferiore a 1, possiamo concludere che la maggior parte dell'anidride carbonica rimane in soluzione come \(\ce{CO2}\) disciolta, piuttosto che convertita in acido carbonico.
+  \item \textbf{Efficienza di Conversione}: La conversione di \(\ce{CO2}\) e \(\ce{H2O}\) in \(\ce{H2CO3}\) è inefficiente in termini di equilibrio chimico. Nei termini del cambiamento climatico e acidificazione degli oceani questo è positivo ma...
+  
+\item \textbf{Condizioni dell'Equilibrio}: La costante di equilibrio è funzione della temperatura. Quindi, il valore di \( K_c = 0.0667 \) è valido solo a una determinata temperatura (ipotizziamo una temperatura dell'acqua di 10°C). Se la temperatura cambia, ad esempio con un aumento a causa del cambiamento climatico, il valore di \( K_c \) subirà delle variazioni, spingendo l'equilibrio verso i prodotti. Questo spiega il ruolo della temperatura nel processo di acidificazione, come riportato dagli studi degli ultimi anni\footnote{Understanding the effects of ocean acidification on Dungeness crab; NOAA, https://oceanacidification.noaa.gov/funded-projects/understanding-the-effects-of-ocean-acidification-on-dungeness-crab/}.
+
+
+\end{itemize}
+
+
+\newpage    
+
+\section{Cambiamenti del sistema e principio di Le Chatelier}
+La definizione:
+
+Il principio di Le Châtelier (anche detto principio di Le Châtelier-Braun o principio dell'equilibrio mobile) è un principio di termodinamica chimica, secondo il quale ogni sistema tende a reagire ad una perturbazione impostagli dall'esterno minimizzandone gli effetti.
+
+Quando in una reazione chimica in equilibrio si modificano i parametri con cui avviene (concentrazione dei reagenti o concentrazione dei prodotti, volume o pressione, temperatura), la reazione si sposta o verso destra  (verso i prodotti) o verso sinistra (verso i reagenti), per raggiungere un nuovo equilibrio (questo visualizzato sulla sua equazione stechiometrica) \footnote{\url{https://it.wikipedia.org/wiki/Principio_di_Le_Chatelier}}.
+
+Va notato che il principio vale solo per i sistemi in equilibrio.
+Questa legge può essere il paradigma di riferimento per affermare che \textit{se un sistema in equilibrio è sottoposto a un cambiamento, il sistema risponderà in modo da contrastare parzialmente il cambiamento e riportare il sistema a una nuova posizione di equilibrio} e può essere utilizzato per chiarire come le variazioni di concentrazione, temperatura e pressione influenzano l'equilibrio di una reazione.\\
+
+\textbf{\textit{L'effetto della temperatura}}
+Il Principio di Le Chatelier si applica anche alle variazioni di temperatura. Se la temperatura di un sistema in equilibrio viene aumentata, l'equilibrio si sposterà nella direzione che consuma calore, che è la direzione inversa per una reazione endotermica. D'altra parte, se la temperatura viene diminuita, l'equilibrio si sposterà nella direzione che produce calore, che è la direzione diretta per una reazione esotermica.\\
+
+\textbf{\textit{L'effetto della concentrazione}}
+Secondo il Principio di Le Chatelier, se la concentrazione di una specie in un sistema in equilibrio viene modificata, l'equilibrio si sposterà in modo da contrastare parzialmente il cambiamento. Ad esempio, nella reazione tra idrogeno e iodio per produrre ioduro di idrogeno, se viene aggiunto più ioduro di idrogeno al sistema, l'equilibrio si sposterà nella direzione inversa per consumare parte dell'eccesso di ioduro di idrogeno.\\
+
+\textbf{\textit{L'effetto del volume}}
+Quando il volume di un sistema in equilibrio viene modificato, il Principio di Le Chatelier prevede che il sistema risponderà spostandosi in modo da ridurre la pressione. Nel caso dei gas, Se il volume viene ridotto, l'equilibrio si sposterà nella direzione di un minor numero di molecole gassose, mentre se il volume viene aumentato, l'equilibrio si sposterà nella direzione di un maggior numero di molecole gassose.
+
+
+\section{Reazioni Acido-Base}
+
+\section*{Teoria di Arrhenius}
+
+Sviluppata nel 1887 è una delle prime teorie sistematiche per descrivere le reazioni acido-base in soluzione acquosa.
+
+\subsection*{Definizione di Acidi e Basi secondo Arrhenius}
+
+Secondo la teoria di Arrhenius:
+\begin{itemize}
+    \item \textbf{Acidi:} Gli acidi sono sostanze che, quando disciolte in acqua, aumentano la concentrazione di ioni idrogeno (H$^+$):
+    \[ \text{HCl} \rightarrow \text{H}^+ + \text{Cl}^- \]
+    \item \textbf{Basi:} Le basi sono sostanze che, quando disciolte in acqua, aumentano la concentrazione di ioni idrossido (OH$^-$):
+    \[ \text{NaOH} \rightarrow \text{Na}^+ + \text{OH}^- \]
+\end{itemize}
+
+Secondo Arrhenius, la formazione di ioni idrogeno o idrossido è il risultato della dissociazione degli ioni in acqua.
+
+\subsection*{Limitazioni della Teoria di Arrhenius}
+
+La teoria di Arrhenius è limitata alle reazioni che avvengono in soluzione acquosa e non può spiegare tutte le reazioni acido-base, in particolare quelle che avvengono in solventi diversi dall'acqua e in sistemi non acquosi.
+
+
+\section{Teoria di Brønsted-Lowry}
+
+\subsubsection*{Definizione di Acidi e Basi secondo Brønsted-Lowry}
+
+Secondo la teoria di Brønsted-Lowry:
+\begin{itemize}
+    \item \textbf{Acidi:} Un acido è una sostanza che può donare un protone (unione di un atomo di idrogeno):
+    \[ \text{HCl} + \text{H}_2\text{O} \rightleftharpoons \text{H}_3\text{O}^+ + \text{Cl}^- \]
+    Nell'esempio sopra, l'acido cloridrico (HCl) dona un protone all'acqua (H$_2$O), formando ioni idronio (H$_3$O$^+$) e ioni cloruro (Cl$^-$).
+    
+    \item \textbf{Basi:} Una base è una sostanza che può accettare un protone:
+    \[ \text{NH}_3 + \text{H}_2\text{O} \rightleftharpoons \text{NH}_4^+ + \text{OH}^- \]
+    Nell'esempio sopra, l'ammoniaca (NH$_3$) accetta un protone dall'acqua, formando l'ammonio (NH$_4^+$) e ioni idrossido (OH$^-$).
+\end{itemize}
+
+Secondo la teoria di Brønsted-Lowry, un acido e una base sono definiti in termini di donazione o accettazione di protoni, rispettivamente.
+
+
+\section{Teoria di Lewis}
+
+Proposta nel 1923, offre una definizione più generale di acidi e basi rispetto alle teorie precedenti, prendendo in considerazione lo scambio di elettroni.
+
+\subsubsection*{Definizione di Acidi e Basi secondo Lewis}
+
+Secondo la teoria di Lewis:
+\begin{itemize}
+    \item \textbf{Acidi di Lewis:} Un acido di Lewis è una sostanza che può accettare una coppia di elettroni da un'altra specie chimica:
+    \[
+\mathrm{Zn^{2+}}_{(aq)} + \mathrm{2H_{2}O}_{(l)} \longrightarrow \mathrm{Zn(OH)_{2}}_{(aq)} + \mathrm{2H^{+}}_{(aq)}
+\]
+
+   In questo caso $\mathrm{Zn^{2+}}$ presenta una struttura elettronica incompleta e nessun idrogeno ionizzabile: infatti, le molecole che possiedono una struttura elettronica incompleta sono degli acidi di Lewis.
+
+    
+    \item \textbf{Basi di Lewis:} Una base di Lewis è una sostanza che può donare una coppia di elettroni a un acido di Lewis:
+   
+
+\[
+\mathrm{CO_{3}^{2-}}_{(aq)} + \mathrm{2H_{2}O}_{(l)} \longrightarrow \mathrm{H_{2}CO_{3}}_{(aq)} + \mathrm{2OH^{-}}_{(aq)}
+\]
+
+In questo caso $\mathrm{CO_{3}^{2-}}_{(aq)}$ si comporta da base di Lewis, cedendo una coppia di elettroni.
+\end{itemize}
+
+Secondo la teoria di Lewis, il concetto di acido e base non è limitato alla presenza di ioni idrogeno o idrossido, ma è basato sul trasferimento di coppie di elettroni.
+
+\section{Equilibrio Acido-Base}
+Le reazioni acido-base raggiungono spesso uno stato di equilibrio. Consideriamo la dissociazione dell'acido acetico (CH$_3$COOH) in acqua:
+\[
+\text{CH}_3\text{COOH} + \text{H}_2\text{O} \rightleftharpoons \text{CH}_3\text{COO}^- + \text{H}_3\text{O}^+
+\]
+
+\subsection{Costante di Equilibrio (\(K_a\))}
+La costante di equilibrio per questa reazione, \( K_a \), è un'indicazione della forza dell'acido.
+\( K_a \) viene chiamata costante di dissociazione acida ed è la 
+grandezza normalmente usata come misura della forza 
+dell’acido; tanto più grande è Ka, tanto più spostato a 
+destra è l’equilibrio e tanto più forte è l’acido
+Analogamente, la forza di una base b è misurata dalla 
+costante (ridotta Kb) associata all’equilibrio.
+
+\[
+K = \frac{[\text{CH}_3\text{COO}^-][\text{H}_3\text{O}^+]}{[\text{CH}_3\text{COOH}]}
+\]
+Un valore alto di \( K \) indica un acido forte, mentre un valore basso indica un acido debole.
+
+
+
+\section{Importanza del pH}
+
+Il pH è una misura fondamentale in chimica che indica l'acidità o la basicità di una soluzione. È definito come il logaritmo negativo della concentrazione degli ioni idrogeno (H$^+$) in una soluzione:
+\[ \text{pH} = -\log[\text{H}^+] \]
+
+\section{Scala del pH}
+
+La scala del pH va da 0 a 14 e fornisce una misura della concentrazione di ioni idrogeno in una soluzione:
+
+\begin{itemize}
+    \item \textbf{Soluzioni Acide:} Hanno un pH inferiore a 7. Maggiore è la concentrazione di H$^+$, più basso è il pH. Esempi comuni includono l'acido cloridrico (HCl) e l'acido solforico (H$_2$SO$_4$).
+    \[ \text{HCl} \rightarrow \text{H}^+ + \text{Cl}^- \]
+    \[ \text{H}_2\text{SO}_4 \rightarrow 2\text{H}^+ + \text{SO}_4^{2-} \]
+
+    \item \textbf{Soluzioni Neutre:} Hanno un pH pari a 7, che è tipico dell'acqua pura. In una soluzione neutra, la concentrazione di H$^+$ è pari a $10^{-7}$ M.
+    \[ \text{H}_2\text{O} \rightleftharpoons \text{H}^+ + \text{OH}^- \]
+
+    \item \textbf{Soluzioni Basiche:} Hanno un pH superiore a 7. Maggiore è la concentrazione di ioni idrossido (OH$^-$), più alto è il pH. Ad esempio l'idrossido di sodio (NaOH) e l'ammoniaca (NH$_3$).
+    \[ \text{NaOH} \rightarrow \text{Na}^+ + \text{OH}^- \]
+    \[ \text{NH}_3 + \text{H}_2\text{O} \rightarrow \text{NH}_4^+ + \text{OH}^- \]
+\end{itemize}
+
+\section{Calcolo del pH}
+
+Il pH può essere calcolato direttamente dalla concentrazione di ioni H$^+$. Ad esempio:
+
+\begin{itemize}
+    \item Per una soluzione con [H$^+$] = $1 \times 10^{-3}$ M:
+    \[ \text{pH} = -\log(1 \times 10^{-3}) = 3 \]
+
+    \item Per una soluzione con [H$^+$] = $1 \times 10^{-8}$ M:
+    \[ \text{pH} = -\log(1 \times 10^{-8}) = 8 \]
+\end{itemize}
+
+\section{Indicatori di pH}
+
+Gli indicatori di pH sono sostanze che cambiano colore in funzione del pH della soluzione in cui sono disciolti. Alcuni esempi comuni includono:
+
+\begin{itemize}
+    \item \textbf{Tornasole:} Rosso in ambiente acido e blu in ambiente basico.
+    \item \textbf{Fenolftaleina:} Incolore in ambiente acido e rosa in ambiente basico.
+    \item \textbf{Blu di bromotimolo} giallo in ambiente acido e blu in ambiente basico.
+\end{itemize}
+
+\section{Strumenti per la Misura del pH}
+
+\begin{itemize}
+    \item \textbf{Cartine al Tornasole:} Strisce di carta imbevute di indicatori di pH, che cambiano colore in funzione del pH della soluzione.
+    \item \textbf{pH-metri:} Dispositivi elettronici che misurano il pH con precisione utilizzando un elettrodo di vetro sensibile agli ioni H$^+$.
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+\chapter{CENNI STORICI}
+Incorporare la storia della scienza nel curriculum è importante per diverse ragioni:
+Innanzitutto, fornisce agli studenti la prospettiva della scoperta scientifica, dove i fenomeni e le leggi vengono scoperti e ricercati attraverso un processo cognitivo costruito gradualmente, utilizzando un impianto logico che "monta pezzi su se stesso" e quindi promuove una concettualizzazione fondata attraverso l’approccio cognitivista della disciplina.\\
+
+In secondo luogo, ripercorrere le tappe storiche è uno strumento per evitare l’apprendimento delle misconcezioni che caratterizzano particolarmente l’apprendimento della chimica, portando a un cambiamento concettuale e cognitivo nei confronti della materia: infatti la storia della chimica può essere utilizzata per promuovere l’apprendimento fornendo agli studenti esempi di come gli scienziati del passato avessero concezioni alternative e misconcezioni essi stessi; questa prospettiva rende evidente come la natura della chimica sia un'attività collettiva che progredisce attraverso il consenso e il pensiero critico all'interno della comunità scientifica.\\
+
+In questo caso la ricostruzione storica della scoperta dell'equilibrio chimico può essere utilizzata per progettare studi di caso coerenti alle esperienze di laboratorio proposte nella dimostrazione dei fenomeni.
+
+In ultimo luogo la conoscenza storica può fornire agli insegnanti approfondimenti sulle difficoltà che la scienza affronta nelle sue tappe di scoperta e legittimazione, permettendo di affrontando un percorso didattico lineare e aderente alla realtà, anche dal punto di vista educativo del pensiero.
+
+\section{L'evoluzione storica del concetto di equilibrio chimico}
+
+Nel caso dell'evoluzione del concetto di equilibrio chimico si parlerà di reazione incompleta, reversibilità e dinamica di reazione.\\
+Questi concetti sono emersi mentre i chimici studiavano e sperimentavano i sistemi di equilibrio, incontrando problemi legati alla comprensione delle reazioni chimiche.\\ 
+Ad esempio, parlando di misconcezioni, il concetto di reazione incompleta si riferisce alla constatazione che non tutti i reagenti vengono consumati in una reazione chimica, ma allo stesso tempo c’è un continuo scambio di materia tra reagenti e prodotti, come nell’esempio dell'acido carbonico.\\
+
+La reversibilità sottolinea il fatto che le reazioni possono procedere sia in direzione diretta che inversa, contraddicendo il principio cognitivo in cui nel macroscopico una reazione sembra terminata dopo un dato tempo e prodotti e reagenti sono visibilmente stabili. Questa situazione enfatizza la natura dinamica dell'equilibrio chimico a livello semantico, dove le reazioni continuano ad avvenire anche se non vi è alcuna variazione visibile nelle concentrazioni di reagenti e prodotti.\\
+
+Queste idee sono state esplorate nel contesto delle prime interpretazioni delle reazioni incomplete e si sono evolute nel tempo. Lo studio delle tabelle di affinità durante il XVIII secolo ha svolto un ruolo significativo nella comprensione dei sistemi di equilibrio chimico e gli esperimenti di laboratorio condotti da scienziati come Gladstone, Guldberg e Waage hanno contribuito alla nostra comprensione dell'equilibrio chimico nei punti di vista citati sopra.\\
+In questo caso la ricostruzione storica della scoperta dell'equilibrio chimico può essere utilizzata per progettare studi di caso coerenti alle esperienze di laboratorio proposte nella dimostrazione dei fenomeni.
+
+Lo sviluppo storico del concetto di equilibrio chimico può essere rintracciato fin dall'antichità e al medioevo, quando un cambiamento rapido era considerato "facile". 
+Questa concezione si applicava ai cambiamenti fisici nei composti inorganici; tuttavia, è stato solo nel XVIII secolo che il concetto di \textit{tempo} nelle reazioni chimiche ha iniziato ad essere esplorato sistematicamente.\\
+Wenzel, nel 1777, studiò i tassi di dissoluzione dei metalli negli acidi e scoprì che il tasso di dissoluzione era influenzato dalla concentrazione e dalla natura dell'acido.\\
+Concluse che l'affinità delle sostanze con un solvente comune era inversamente proporzionale al tempo di dissoluzione. 
+
+\section{L'affinità}
+La tradizione più antica che spiega perché le sostanze chimiche reagiscono si basa su una visione antropomorfica della natura, attribuendo le reazioni a concetti di simpatia e antipatia tra sostanze: quest'idea può essere fatta risalire ai principi di\textit{ amore e discordia} di Empedocle. 
+
+Il concetto di affinità, che esprime la tendenza delle sostanze a reagire, è stato introdotto da Alberto Magno e afferma che: \textit{maggiore è l'affinità tra due sostanze, maggiore è la loro tendenza a reagire}. Questa visione dell'interazione tra sostanze ha radici nell'idea che le reazioni avvengono più facilmente tra sostanze strettamente correlate, come ad esempio i gruppi funzionali complementari, le proprietà acido-base, l'energia di reazione o la compatibilità elettronica.
+
+Quindi possiamo determinare che in chimica, il termine "affinità" è possibile usarlo riferendosi alla tendenza di due sostanze chimiche di  (inte)reagire tra loro. 
+
+Rappresenta la forza di attrazione o repulsione che esiste tra le particelle di sostanze diverse e può influenzare la velocità e l'estensione di una reazione chimica; maggiore è l'affinità tra due sostanze, maggiore è la concentrazione di reagenti che vengono prodotti in una reazione chimica.
+
+Uno dei primi tentativi di quantificare l'affinità è stato proposto da \textit{Jöns Jacob Berzelius} nel XIX secolo, che ha suggerito l'uso di \textit{tabelle di affinità}:
+le tavole attribuivano un valore numerico all'affinità tra coppie di sostanze chimiche, indicando la forza della loro tendenza a reagire, questo approccio, seppur innovativo dal punto di vista sistematico, ha incontrato limitazioni a causa della complessità delle interazioni chimiche e della difficoltà nel determinare un valore numerico accurato per l'affinità.\\
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{tabelle di affinita.png}
+    \caption{Tabula affinitatum}
+    \label{fig:enter-label}
+\end{figure}
+
+Facendo un passo indietro, alla fine del XVIII secolo, il concetto di affinità si consolidò come modalità per descrivere i reagenti e i prodotti all'interno di una reazione chimica. 
+
+Berthollet inizialmente aderì al paradigma delle \textit{affinità elettive}: \textit{assumeva che le reazioni non potessero essere invertite.}\\
+In seguito, studi sul nitrato e le osservazioni di campo in Egitto lo portarono a rivedere questo concetto. Egli propose quindi che la massa dei reagenti potesse influenzare l'esito di una reazione e che l'affinità fosse proporzionale alla massa del reagente.\\
+
+Questa nuova comprensione sfidò la precedente teoria delle affinità elettive e introdusse il concetto di reazione chimica basato sia sull'\textit{affinità relativa} che sulle \textit{quantità proporzionali di sostanze}. 
+
+\section{L'importanza del Metodo Sperimentale}
+Il lavoro di Guldberg e Waage nel 1862 rappresentò un significativo sviluppo nella formulazione degli equilibri chimici. Essi si basarono sull'approccio sperimentale dei chimici francesi Berthelot e Saint-Gilles, che studiarono le reazioni di esterificazione come un'alternativa più lenta alle reazioni tra acidi, basi e sali. 
+Guldberg e Waage miravano a trovare un'equazione matematica generale che potesse conciliare le precedenti idee di Bergman e Berthollet.\\
+Introdussero così il concetto di forze chimiche e argomentarono che queste forze non erano proporzionali alle quantità di sostanze coinvolte, ma alle loro masse e alle loro concentrazioni. Svilupparono equazioni che rappresentavano un equilibrio tra queste forze chimiche e alla fine ottennero un'equazione simile alla \textit{costante di equilibrio}. Il loro lavoro pose le basi per la determinazione quantitativa delle affinità chimiche e per la considerazione delle concentrazioni nelle reazioni di equilibrio, come accadrà successivamente nel caso Berzelius.
+
+Essi argomentarono come segue: Se si inizia con il sistema generale che contiene le quattro sostanze attive in una relazione variabile e si designano le quantità di queste sostanze, ridotte allo stesso volume, con \( p \) e \( q \), allora, quando lo stato di equilibrio è stato raggiunto, una certa quantità delle prime due sostanze verrà trasformata. Le quantità di \( P \) e \( Q \) che mantengono tra loro l'equilibrio saranno conseguentemente \( p - x \), \( q - x \), \( p + x \) e \( q + x \) rispettivamente.
+
+Secondo la legge dell'azione di massa, la forza d'azione per le prime due sostanze è \((p - x)^a (q - x)^b\) e quella per le ultime due è \((p + x)^a (q + x)^b\). Allo stato di equilibrio dovrebbe applicarsi la seguente uguaglianza:
+
+\[
+(p - x)^a (q - x)^b = (p + x)^a (q + x)^b
+\]
+
+L'equazione sopra era effettivamente la prima equazione che approssimava l'espressione matematica di ciò che oggi chiamiamo costante di equilibrio. 
+Dobbiamo comunque notare che ottennero un'equazione che rappresentava un equilibrio tra due forze chimiche. 
+Anche se in seguito argomentarono in termini di velocità delle reazioni nelle direzioni diretta e inversa, inizialmente lo fecero in termini di forze. Inoltre, gli esponenti furono determinati empiricamente e, quindi, non avevano alcuna relazione con la stechiometria. Solo in un articolo successivo del 1879 Guldberg e Waage ottennero un'equazione simile alla costante di equilibrio (Guldberg e Waage, 1879). In questa, gli esponenti erano i coefficienti stechiometrici nell'equazione chimica che rappresenta il sistema di equilibrio.\footnote{Quílez, A historical approach to the development of chemic (2004)}
+
+Laidler (1995) affermò che nonostante questa fosse la relazione corretta, non erano arrivati ad essa in modo soddisfacente. 
+\\Non fecero alcun contributo alla cinetica, poiché lavoravano in termini di forze e non di velocità, anche se suggerirono che le velocità potessero essere proporzionali alle forze.
+
+Comunque, la prima equazione ottenuta da Guldberg e Waage rappresentava un promettente punto di partenza nella ricerca di una determinazione quantitativa delle affinità chimiche (Lindauer, 1962).\\
+La considerazione delle concentrazioni delle sostanze coinvolte nel sistema di equilibrio, invece delle loro quantità, fu un fattore chiave per lo sviluppo del concetto di equilibrio chimico.
+
+\subsection{Una situazione interessante dal punto di vista storico}
+
+Come puntualizzò Servos (1990) \footnote{ivi, p. 77}, il lavoro di Guldberg e Waage non suscitò un interesse immediato nello studio della legge dell'azione di massa. Il motivo principale era che gli studi sull'affinità non rappresentavano un insieme coerente di problemi, né attiravano l'attenzione di una rete di scienziati in stretta comunicazione tra loro. 
+Nel caso dei due scienziati norvegesi, il loro isolamento geografico e linguistico, così come i loro stili personali, fecero poco per favorire contatti produttivi.\\
+D'altra parte, inizialmente furono trovate solo un piccolo numero di applicazioni della legge e, come affermarono Guldberg e Waage, i chimici erano interessati a trovare nuovi composti, piuttosto che a occuparsi di investigazioni noiose e meno gratificanti.
+
+Oggi, l'affinità chimica è spesso discussa in termini qualitativi, concentrandosi sulla relativa forza di attrazione o repulsione tra le particelle di sostanze chimiche. Vengono considerati fattori come la struttura molecolare, la carica elettrica o la polarità. Esistono più metodi per calcolare l'affinità tra le sostanze chimiche, ad esempio può essere valutata empiricamente attraverso osservazioni sperimentali e analisi dei dati di laboratorio.
+
+\chapter{Paradigma didattico ed educativo di riferimento}
+
+\section{David Kolb e l'approccio esperienziale} 
+
+David Kolb (1939) è un educatore statunitense che ha 
+sviluppato le sue pubblicazioni e i suoi studi attorno al 
+tema dell'apprendimento esperienziale e alla formazione 
+professionale.
+E’ uno dei primi autori che, raccogliendo le teorie a lui 
+precedenti, cerca di dare i presupposti epistemologici e 
+strutturali all'intera teoria dell'apprendimento 
+esperienziale. 
+Nella teoria dell'Experential Learning, Kolb fa riferimento 
+soprattutto agli studi di John Dewey, Jean Piaget e Kurt 
+Lewin, conferendo all'esperienza concreta e 
+all'osservazione riflessiva il ruolo centrale nel processo di 
+apprendimento.
+
+Di Dewey, Kolb condivide l'approccio 
+progressista dell'educazione, in cui il concetto di 
+esperienza viene inteso come fattore significativo 
+dell'educazione: in un tempo in cui l'educazione era 
+sinonimo di saperi impartiti dagli insegnanti, di lezioni da 
+imparare a memoria, di acquisizione di abilità che non 
+portavano ad obiettivi significativi per lo studente, Dewey
+sviluppa un suo modello educativo fondato sull'esperienza 
+concreta, l'interazione in gruppo e la riflessione sugli 
+argomenti trattati. 
+L'apprendimento esperienziale è un processo in cui la conoscenza avviene attraverso l'osservazione e la trasformazione dell'esperienza e non attraverso la passiva acquisizione di nozioni, concetti e relazioni.
+
+Da Piaget, Kolb ricava la definizione di 
+apprendimento come processo: l’individuo si forma 
+attraverso il processo di scoperta del sapere e non 
+soltanto attraverso il suo contenuto, è quindi 
+fondamentale il percorso con cui si giunge ad una 
+conoscenza e non solo il risultato a cui si giunge.
+Le idee non sono fisse ma formate e riformate attraverso 
+l’esperienza, nella quale si radica il processo di 
+apprendimento. 
+Secondo Kolb \textit{ogni apprendere è un riapprendere}: tutti abbiamo delle idee e delle aspettative su di un contenuto. Ciò modifica il ruolo del discente, non 
+più considerato come una tabula rasa, e la funzione 
+dell’educatore che non dovrà più fissare nuove idee 
+nell’allievo ma modificare e ampliare quelle vecchie.
+
+\subsection{Il ciclo dell’apprendimento di Kolb}
+
+Il modello di Kolb comprende 4 momenti 
+principali: 
+
+\begin{itemize}
+    \item 1. \textbf{\textit{esperienza concreta (EC)}}: è il momento cardine, in cui si fanno nuove esperienze o si fa pratica; è basata sul coinvolgimento diretto e personale nelle esperienze, ed enfatizza l'unicità e la complessità della realtà piuttosto che le teorie. Valorizza i sentimenti di fronte al fenomeno (come meraviglia, stupore o curiosità) piuttosto che i pensieri e stimola un approccio intuitivo ai problemi.
+    
+    \item 2. \textbf{\textit{osservazione riflessiva (OR)}}: in questo momento d’osservazione si riflette su quanto operato e sulle conseguenze che abbiamo ottenuto; Comprensione di idee e situazioni attraverso un'attenta riflessione. È volta alla comprensione piuttosto che all'applicazione, e l'accento è posto sulla “verità” piuttosto che sulla praticità.
+
+    
+    \item 3. \textbf{\textit{concettualizzazione astratta (CA)}}: coinvolge l’uso della logica e di idee, piuttosto che le emozioni per capire problemi o situazioni. È il momento della pianificazione sistematica e dello sviluppo di teorie ed idee per risolvere i problemi, coinvolge l’approccio scientifico ai problemi.
+    
+    \item 4. \textbf{\textit{sperimentazione attiva (SA)}} (che eventualmente può portare nuovamente alla prima fase): l’apprendimento diventa attivo tramite la sperimentazione, influenzando o cambiando le situazioni. Questa fase è dominata da un approccio pratico e applicato a ciò che funziona veramente. Si passa dal riflette all'agire, è il momento del saper mettere in pratica, 
+    e l'interesse è pragmatico verso ciò che funziona (il fenomeno) piuttosto verso ciò che è vero in senso assoluto (la sua rappresentazione logica).
+
+    
+\end{itemize} 
+
+Questi quattro passaggi non sempre sono ben definiti e ciascuna persona ne predilige uno o più a seconda delle sue modalità di apprendimento. 
+Ciascuno di noi è quindi portato a prendere delle “scorciatoie” e a fare quindi tesoro di soltanto una parte dell'esperienza fatta, di conseguenza è necessario che le esperienze proposte siano il più possibile aderenti alla realtà di modo da essere complete dal punto di vista trasmissivo e didattico\footnote{Università di Verona, Corso di Laurea in Tecnica della Riabilitazione Psichiatrica, Prof. Antonio Nocera (2015)}.
+
+\section{Lo stile di apprendimento personale secondo Kolb}
+
+Lo stile personale secondo Kolb è la disposizione di ognuno di noi ad apprendere, questa può essere rintracciata nell'attivazione o disattivazione delle 13 intelligenze multiple teorizzate da Gardner e nella postura di azione e analisi della realtà che ognuno di noi ha introiettato nel proprio percorso di crescita.
+Facendo riferimento al ciclo di apprendimento proposto dalla didattica esperienziale di Kolb, possiamo sintetizzare in questo modo:
+
+\begin{itemize}
+    \item L’esperienza concreta: coinvolgersi pienamente, apertamente in esperienze nuove;
+    \item L’osservazione riflessiva: riflettere su queste esperienze ed osservarle da molte prospettive;
+    \item La concettualizzazione astratta: creare concetti che integrino le osservazioni in teorie di riferimento logicamente valide;
+    \item La sperimentazione attiva: l’ipotesi e le sue alternative vengono testate attraverso l’azione. Il risultato delle ipotesi diventate azione produce delle conseguenze, delle nuove situazioni (o nuovi problemi).
+    
+\end{itemize}
+Come descritto in precedenza, ciascuno di noi è portato a prendere delle “scorciatoie”, attivando o disattivando le esperienze, i costrutti mentali ed emotivi o le intelligenze, e a salvare soltanto una parte dell'esperienza vissuta, ecco perchè subentra un secondo concetto "più metodologico" da tenere in considerazione nella proposta di esperienze didatticamente autentiche: \textbf{\textit{il cooperative learning}}, con l'obiettivo di stimolare la zona prossimale di sviluppo e quindi salvare più informazioni possibili rispettando l'unicità di ognuno.
+
+\section{Il cooperative learning}
+Il Cooperative Learning identifica un preciso metodo di insegnamento mediante il quale gli alunni possono assimilare i contenuti didattici in maniera più interattiva, lavorando insieme in gruppi non troppo numerosi. 
+In tale contesto, l'insegnante riveste un ruolo organizzativo ma agevolante nei confronti degli studenti: egli deve pianificare le varie attività con l'intento di favorire l'apprendimento del gruppo, stimolando la collaborazione positiva che si viene a instaurare tra gli allievi. l'obiettivo del Cooperative Learning è responsabilizzare tutti i componenti del gruppo per raggiungere gli obiettivi didattici comuni stabiliti, grazie a competenze e abilità che ciascun alunno sviluppa all'interno del proprio percorso scolastico \footnote{\url{https://www.edscuola.it/archivio/comprensivi/cooperative_learning.htm}}
+
+
+\section{Efficacia del Cooperative Learning}
+Che cosa rende efficace la cooperazione ?
+Possiamo sintetizzare il successo del metodo in cinque punti:
+
+\begin{itemize}
+    \item \textbf{\textit{L’interdipendenza positiva}}: gli studenti si impegnano per migliorare il rendimento di ciascun membro del gruppo, non essendo possibile il successo individuale senza il successo collettivo;
+
+    \item \textbf{\textit{La responsabilità individuale e di gruppo:}} il gruppo è responsabile del raggiungimento dei suoi obiettivi ed ogni membro è responsabile del suo contributo;
+
+    \item \textit{\textbf{L’interazione costruttiva:}} gli studenti devono relazionarsi in maniera diretta per lavorare, promuovendo e sostenendo gli sforzi di ciascuno, organizzandosi a vicenda per raggiungere l'obiettivo prefissato;
+
+    \item \textbf{\textit{L’attivazione di abilità sociali specifiche e necessarie nei rapporti interpersonali all’interno del gruppo:}} gli studenti si impegnano nei vari ruoli richiesti dal lavoro e nella creazione di un clima di collaborazione e fiducia reciproca. Particolare importanza rivestono le competenze di gestione dei conflitti, e più in generale si parlerà di competenze sociali, che devono essere oggetto di monitoraggio specifico;
+
+    \item \textbf{\textit{La valutazione di gruppo:}} il gruppo valuta i propri risultati e il proprio modo di lavorare e si pone degli obiettivi di miglioramento.
+
+    
+\end{itemize}
+Come descritto in questo elaborato, ritengo che la Chimica, intesa come disciplina di scoperta e analisi sperimentale, e come prospettiva storica basata sulla comunicazione e sviluppo delle ricerche, possa inserirsi decisamente in una prospettiva di creazione del sapere collaborativa che faccia tesoro contemporaneamente dello sguardo di ogni partecipante.
+
+\chapter{Possibilità didattiche - traccia per i docenti}
+
+Una delle possibili applicazioni del concetto di equilibrio chimico può essere rintracciato nell’approfondimento delle reazioni acido-base.
+
+
+Possiamo utilizzare un esperimento facilmente riproducibile e dai risultati chiari:\\
+
+
+
+\section{Esperimento 1: Acidificazione degli Oceani}
+
+\subsection{Materiali}
+\begin{itemize}
+    \item Acqua distillata
+    \item Contenitore trasparente (becher)
+    \item Paglia o tubo per soffiaggio
+    \item Soluzione di idrossido di sodio (NaOH)
+    \item Indicatore di pH (come fenolftaleina o blu di bromotimolo)
+    \item Soluzione di biossido di carbonio (può essere generata con una reazione tra acido cloridrico e bicarbonato di sodio)
+\end{itemize}
+
+\subsection{Procedura}
+\begin{enumerate}
+    \item \textbf{Preparazione della soluzione di idrossido di sodio:}
+    \begin{itemize}
+        \item Riempire il becher con acqua distillata.
+        \item Aggiungere una piccola quantità di NaOH alla soluzione per renderla basica. La soluzione dovrebbe avere un pH superiore a 7.
+        \item Aggiungere alcune gocce di indicatore di pH. Se si usa la fenolftaleina, la soluzione diventerà rosa, mentre con il blu di bromotimolo diventerà blu.
+    \end{itemize}
+    
+    \item \textbf{Dimostrazione dell'equilibrio chimico:}
+    \begin{itemize}
+        \item Descrivere il concetto di equilibrio chimico usando la reazione tra il biossido di carbonio e l'acqua:
+        \[
+        \ce{CO2 + H2O <=> H2CO3}
+        \]
+        \item Descrivere come l'acido carbonico (H$_2$CO$_3$) si dissocia parzialmente in acqua:
+        \[
+        \ce{H2CO3 <=> H+ + HCO3-}
+        \]
+    \end{itemize}
+    
+    \item \textbf{Soffiaggio di CO$_2$:}
+    \begin{itemize}
+        \item Utilizzare un tubo per soffiare delicatamente aria (contenente CO$_2$) nella soluzione di NaOH. Alternativamente, aggiungere lentamente la soluzione di CO$_2$ preparata in precedenza.
+    \end{itemize}
+    
+    \item \textbf{Osservazione del cambiamento di pH:}
+    \begin{itemize}
+        \item Osservare il cambiamento di colore della soluzione mentre il CO$_2$ viene introdotto. La soluzione inizialmente basica diventerà progressivamente più acida: questo viene dimostrato dal cambiamento di colore dell'indicatore di pH (la fenolftaleina perderà il colore rosa, mentre il blu di bromotimolo cambierà dal blu al verde/giallo).
+        \item Spiegare che l'introduzione di CO$_2$ nell'acqua porta alla formazione di acido carbonico, che si dissocia in ioni idrogeno (\ce{H+}) e bicarbonato (\ce{HCO3-}), aumentando l'acidità della soluzione.
+    \end{itemize}
+    
+    \item \textbf{Discussione sull'acidificazione degli oceani:}
+    \begin{itemize}
+        \item Infine associare il fenomeno all'acidificazione degli oceani. Spiegare che l'aumento della CO$_2$ atmosferica, dovuto alle attività umane, viene assorbito dagli oceani, portando ad una maggiore formazione di acido carbonico e quindi ad un abbassamento del pH oceanico.
+        \item Ipotizzare come questo cambiamento di pH può avere effetti negativi sulla vita marina, in particolare sugli organismi con gusci calcarei, come i coralli e i molluschi.
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Teoria di riferimento}
+\begin{itemize}
+    \item \textbf{Equilibrio Chimico:}
+    \[
+    \ce{CO2 + H2O <=> H2CO3}
+    \]
+    Questa reazione è in equilibrio dinamico. L'introduzione di più CO$_2$ sposta l'equilibrio verso destra, formando più acido carbonico.
+    
+    \item \textbf{Reazioni Acido-Base:}
+    L'acido carbonico dissocia parzialmente:
+    \[
+    \ce{H2CO3 <=> H+ + HCO3-}
+    \]
+    L'aumento di ioni \ce{H+} riduce il pH, rendendo l'acqua più acida.
+\end{itemize}
+
+\section{Esperimento 2: Dissoluzione dei Gusci}
+
+\subsection{Materiali}
+\begin{itemize}
+    \item Gusci duri (ad esempio, frammenti di conchiglia o gusci d'uovo)
+    \item Contenitore trasparente (becher)
+    \item Soluzione di acido cloridrico (HCl) diluito
+    \item Acqua distillata
+    \item Indicatore di pH
+\end{itemize}
+
+\subsection{Procedura}
+\begin{enumerate}
+    \item \textbf{Preparazione della soluzione acida:}
+    \begin{itemize}
+        \item Riempire il becher con acqua distillata.
+        \item Aggiungere lentamente acido cloridrico diluito fino a raggiungere un pH acido (circa 3-4).
+        \item Aggiungere alcune gocce di indicatore di pH per visualizzare l'acidità della soluzione.
+    \end{itemize}
+
+    \item \textbf{Introduzione dei gusci:}
+    \begin{itemize}
+        \item Mettere i frammenti di gusci di mollusco nella soluzione acida.
+        \item Osservare e annotare qualsiasi reazione visibile, come la formazione di bolle o il cambiamento di colore.
+    \end{itemize}
+    
+    \item \textbf{Osservazione della dissoluzione:}
+    \begin{itemize}
+        \item Spiegare alla classe che i gusci di mollusco sono principalmente composti da carbonato di calcio (\ce{CaCO3}), che reagisce con l'acido cloridrico secondo la reazione:
+        \[
+        \ce{CaCO3 (s) + 2HCl (aq) -> CaCl2 (aq) + H2O (l) + CO2 (g)}
+        \]
+        \item Osservare la dissoluzione dei gusci e discutere il processo chimico che avviene, evidenziando la produzione di biossido di carbonio (\ce{CO2}) come gas visibile.
+    \end{itemize}
+    
+    \item \textbf{Discussione sull'impatto dell'acidificazione:}
+    \begin{itemize}
+        \item Collegare l'esperimento all'acidificazione degli oceani, spiegando che l'aumento della \ce{CO2} atmosferica porta a un abbassamento del pH oceanico, che indebolisce o dissolve i gusci di organismi marini come molluschi e coralli.
+        \item Discutere l'importanza di proteggere gli ecosistemi marini dall'acidificazione e le possibili conseguenze ecologiche riprendendo gli obiettivi dell'agenda 2030.
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Teoria di riferimento}
+\begin{itemize}
+    \item \textbf{Reazione di Dissoluzione:}
+    \[
+    \ce{CaCO3 (s) + 2HCl (aq) -> CaCl2 (aq) + H2O (l) + CO2 (g)}
+    \]
+    La reazione tra carbonato di calcio e acido cloridrico produce cloruro di calcio, acqua e anidride carbonica.
+    
+    \item \textbf{Impatto dell'Acidificazione:}
+    L'aumento di \ce{CO2} atmosferica e il conseguente abbassamento del pH degli oceani possono portare alla dissoluzione dei gusci calcarei, minacciando la sopravvivenza di molti organismi marini.
+\end{itemize}
+
+\newpage
+\section{Valutazione dell’apprendimento}
+
+\subsection*{Obiettivi}
+\begin{itemize}
+    \item Valutare la comprensione degli studenti sui concetti di equilibrio chimico, acidi e basi.
+    \item Applicare le competenze acquisite nella sperimentazione di un processo di equilibrio chimico per risolvere una situazione problema in laboratorio.
+    \item Fornire una valutazione agli studenti per monitorare la loro capacità di applicare concetti teorici alla pratica sperimentale.
+    \item Saper lavorare in gruppo ricoprendo un ruolo assegnato.
+\end{itemize}
+
+\subsection*{Attività}
+
+\subsubsection*{Esperimento di equilibrio chimico e acido-base}
+\begin{itemize}
+    \item I gruppi eseguono un esperimento di equilibrio chimico per osservare la reazione tra un acido e una base.
+    \item Utilizzo di indicatori di pH per monitorare l'andamento della reazione.
+    \item Misurazione del pH iniziale e finale della soluzione.
+    \item Registrazione sulla scheda di osservazione del processo sperimentale.
+\end{itemize}
+
+\subsection*{Valutazione}
+
+\subsubsection*{Scheda di osservazione}
+costruzione di una scheda di osservazione che tenga conto delle indicazioni come ad esempio:
+\begin{itemize}
+    \item Osservazione della procedura corretta durante l'esperimento.
+    \item Documentazione accurata delle fasi sperimentali: preparazione delle soluzioni, aggiunta di reagenti, misurazione del pH.
+    \item Descrizione dei passaggi dell'esperimento, inclusi tempi, quantità di reagenti e risultati attesi e effettivi.
+    \item Valutazione della capacità di interpretare i risultati in termini di equilibrio chimico e acido-base.
+\item Utilizzo della Rubric come metro di valutazione e autovalutazione.
+\end{itemize}
+
+\subsection*{Discussione e Presentazione}
+
+\begin{itemize}
+    \item Esposizione delle schede di osservazione di gruppo per confrontare le esperienze degli studenti nel processo sperimentale e nelle sfide incontrate.
+  \item Preparazione di una breve presentazione in cui ogni membro del gruppo si concentra su un aspetto specifico del processo chimico sull'equilibrio, le reazioni acido-base e sul cambiamento climatico, evidenziando scoperte e concetti appresi.
+\end{itemize}
+
+\subsubsection*{Feedback e Revisione:}
+\begin{itemize}
+  \item Feedback istantanei e dettagliati sugli esiti della valutazione delle schede.
+  \item Consigli agli studenti su come migliorare la loro comprensione e le loro competenze del concetto.
+  \item Recupero: ripetizione in itinere del contenuto non appreso ed esposizione alla classe.
+\end{itemize}
+
+
+\newpage
+\section{Indicazioni di sicurezza in laboratorio}
+
+L'ambiente di laboratorio presenta rischi potenziali che devono essere gestiti con attenzione per garantire la sicurezza degli operatori e la corretta esecuzione delle procedure. Le indicazioni di sicurezza sono fondamentali per prevenire incidenti e pericoli che potrebbero derivare dall'interazione con sostanze pericolose, strumenti e apparecchiature.
+
+\subsection*{Dispositivi di protezione individuale (DPI)}
+Prima di entrare in laboratorio, è essenziale indossare l'equipaggiamento di protezione individuale appropriato, che può includere:
+\begin{itemize}
+\item Occhiali protettivi: Indossati per proteggere gli occhi da schizzi di sostanze chimiche o frammenti.
+\item Camice da laboratorio: Utilizzato per proteggere i vestiti e la pelle da eventuali schizzi o contaminazioni.
+\item Guanti: Necessari per manipolare sostanze chimiche e materiali pericolosi senza entrare in contatto diretto con la pelle.
+\item Scarpe chiuse: Per proteggere i piedi da schizzi o cadute di oggetti.
+\end{itemize}
+
+\subsection*{Norme di comportamento}
+Durante l'attività in laboratorio, è importante seguire alcune norme di comportamento per garantire la sicurezza di tutti i partecipanti:
+\begin{itemize}
+\item Seguire le istruzioni: Leggere attentamente le istruzioni sperimentali e chiedere chiarimenti se necessario prima di iniziare.
+\item Non mangiare, bere o applicare cosmetici in laboratorio.
+\item Mantenere un ambiente ordinato: Mantenere i banchi di lavoro puliti e organizzati per evitare incidenti dovuti a disordini.
+\item Rispettare le procedure di smaltimento: Smaltire correttamente i rifiuti chimici secondo le normative locali e le indicazioni fornite.
+\end{itemize}
+
+\subsection*{Gestione delle sostanze chimiche}
+Le sostanze chimiche utilizzate in laboratorio possono essere pericolose se non gestite correttamente:
+\begin{itemize}
+\item Etichettatura: Assicurarsi che tutte le sostanze siano correttamente etichettate con nome, concentrazione e possibili rischi.
+\item Manipolazione sicura: Seguire le precauzioni specifiche per ogni sostanza, come l'uso di cappe aspiranti per vapori tossici.
+\item Contenimento dei liquidi: Utilizzare recipienti adeguati per contenere liquidi per evitare fuoriuscite.
+\end{itemize}
+
+\subsection*{Procedure di sicurezza in caso di emergenza}
+Ogni laboratorio dovrebbe avere procedure di sicurezza in caso di emergenza, tra cui:
+\begin{itemize}
+\item Punto di raccolta: Conoscere il punto di raccolta stabilito in caso di evacuazione.
+\item Kit di pronto soccorso: Conoscere la posizione del kit di primo soccorso e come utilizzarlo in caso di necessità.
+\item Segnalazione degli incidenti: Segnalare immediatamente qualsiasi incidente o problema di sicurezza al personale competente.
+\end{itemize}
+
+Seguire rigorosamente queste indicazioni di sicurezza è fondamentale per un'esperienza di laboratorio positiva e sicura, che promuova sia l'apprendimento che la protezione individuale.
+\newpage
+
+
+\begin{appendices}
+
+\title{Allegato 1\\ traccia per la classe: esperimenti sull'acidificazione degli oceani e dissoluzione dei gusci}
+\author{Insegnamento di Chimica}
+\date{AS 2023-2024}
+\maketitle
+
+\section{Esperimento 1: Acidificazione degli Oceani}
+
+\subsection{Obiettivo}
+Dimostrare l'effetto dell'anidride carbonica (\ce{CO2}) sull'acidificazione degli oceani utilizzando un indicatore di pH; organizzare dei gruppi di lavoro con ruoli ben distinti.
+
+\subsection{Materiali}
+\begin{itemize}
+    \item Acqua distillata
+    \item Contenitore trasparente (becher)
+    \item Tubo per soffiaggio
+    \item Soluzione di idrossido di sodio (NaOH)
+    \item Indicatore di pH (fenolftaleina o blu di bromotimolo)
+    \item Soluzione di biossido di carbonio (opzionale, può essere generata con una reazione tra acido cloridrico e bicarbonato di sodio)
+    \item cartina tornasole
+\end{itemize}
+
+\subsection{Procedura}
+\begin{enumerate}
+    \item \textbf{Preparazione della soluzione di idrossido di sodio:}
+    \begin{itemize}
+        \item Riempite il becher con acqua distillata fino a metà.
+        \item Aggiungete alcune gocce di soluzione di NaOH per rendere l'acqua basica. La soluzione dovrebbe avere un pH superiore a 7 (verificatelo con la cartina tornasole).
+        \item Aggiungete alcune gocce di indicatore di pH. La fenolftaleina renderà la soluzione rosa, mentre il blu di bromotimolo la renderà blu.
+    \end{itemize}
+    
+    \item \textbf{Introduzione di \ce{CO2}:}
+    \begin{itemize}
+        \item Utilizzate un tubo per soffiare delicatamente aria (contenente \ce{CO2}) nella soluzione di NaOH. Alternativamente, aggiungete lentamente una soluzione di \ce{CO2} preparata in precedenza.
+    \end{itemize}
+    
+    \item \textbf{Osservazione:}
+    \begin{itemize}
+        \item Osservate il cambiamento di colore della soluzione. La soluzione inizialmente basica diventerà progressivamente più acida, indicato dal cambiamento di colore dell'indicatore di pH (la fenolftaleina perderà il colore rosa, mentre il blu di bromotimolo cambierà dal blu al verde/giallo).
+    \end{itemize}
+    
+\end{enumerate}
+
+
+\section{Esperimento 2: Dissoluzione dei Gusci}
+
+\subsection{Obiettivo}
+Dimostrare l'effetto dell'acidificazione degli oceani sulla dissoluzione dei gusci di molluschi, organizzare dei gruppi di lavoro con ruoli ben distinti.
+
+\subsection{Materiali}
+\begin{itemize}
+    \item Gusci di mollusco (ad esempio, frammenti di conchiglia o gusci d'uovo)
+    \item Contenitore trasparente (becher)
+    \item Soluzione di acido cloridrico (HCl) diluito
+    \item Acqua distillata
+    \item Indicatore di pH
+\end{itemize}
+
+\subsection{Procedura}
+\begin{enumerate}
+    \item \textbf{Preparazione della soluzione acida:}
+    \begin{itemize}
+        \item Riempite il becher con acqua distillata fino a metà.
+        \item Aggiungete lentamente acido cloridrico diluito fino a raggiungere un pH acido (circa 3-4).
+        \item Aggiungete alcune gocce di indicatore di pH per visualizzare l'acidità della soluzione.
+    \end{itemize}
+    
+    \item \textbf{Introduzione dei gusci:}
+    \begin{itemize}
+        \item Mettete i frammenti di gusci di mollusco nella soluzione acida.
+        \item Osservate e annotate qualsiasi reazione visibile, come la formazione di bolle o il cambiamento di colore.
+    \end{itemize}
+    
+    \item \textbf{Osservazione della dissoluzione:}
+    \begin{itemize}
+        \item Osservate la dissoluzione dei gusci e discutete il processo chimico che avviene, evidenziando la produzione di biossido di carbonio (\ce{CO2}) come gas visibile.
+    \end{itemize}
+    
+    \item \textbf{Discussione e conclusione:}\\
+     Create una presentazione sui contenuti che avete appreso, argomentando sia gli aspetti teorici che documentando quelli pratici e sperimentali.
+     
+    \begin{itemize}
+   
+        \item Discutete come questo esperimento simula l'impatto dell'acidificazione degli oceani sulla vita marina. 
+        \item Spiegate che l'aumento della \ce{CO2} atmosferica porta a un abbassamento del pH oceanico, che può dissolvere i gusci di organismi marini come molluschi e coralli.
+        \item Discutete come questo esperimento simula l'acidificazione degli oceani. Spiegate che l'aumento della \ce{CO2} atmosferica, assorbito dagli oceani, porta a una maggiore formazione di acido carbonico (\ce{H2CO3}), che abbassa il pH oceanico.
+        \item Compilate la scheda di osservazione (Allegato 2)
+    \end{itemize}
+\end{enumerate}
+
+\end{appendices}
+
+
+
+\newpage
+\begin{appendices}
+
+\title{Allegato 2\\ Traccia per la scheda di osservazione}
+
+
+
+
+\section*{Scheda di osservazione per gli esperimenti}
+
+\subsection*{Studente: \underline{\hspace{6cm}} \\ \hfill Data: \underline{\hspace{4cm}}\\ 
+\hfill Ruolo: \underline{\hspace{4cm}}\\}
+
+\subsection*{Esperimento: acidificazione degli oceani e dissoluzione dei gusci}
+produrre una scheda di osservazione di gruppo includendo:
+
+\subsection*{Materiali Necessari:}
+Elencare i materiali utilizzati
+
+\subsection*{Procedura:}
+Descrivere la procedura 
+
+\subsection*{Osservazioni Richieste:}
+\begin{itemize}
+    \item  Rilevazione temperatura dell'acqua.
+    \item Descrizione dei passaggi seguiti durante l'esperimento.
+    \item Annotazione dei tempi di inizio e fine di ogni fase sperimentale.
+    \item Misura del pH iniziale e finale e registrazione dei valori di pH misurati a intervalli di 1 minuto per 5 minuti.
+    \item Comparazione tra il pH atteso dopo l'aggiunta di CO\textsubscript{2} e il pH effettivamente misurato.
+    \item Registrazione delle masse dei reagenti.
+    \item Descrizione grafica del fenomeno di equilibrio sia a livello macroscopico che ultramicroscopico.
+\end{itemize}
+
+\subsection*{Risultati Attesi:}
+Indicare i risultati attesi.
+
+\subsection*{Note Finali:}
+Registrare qualsiasi osservazione aggiuntiva ritenuta rilevante durante l'esperimento.
+
+
+\end{appendices}
+
+\end{document}
+
